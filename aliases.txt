@@ -1,0 +1,19 @@
+########################################################################
+# User specific aliases and functions
+########################################################################
+
+# Alias to modify commands
+alias ls='ls -lh --color=auto --group-directories-first'   # List files in human-readable format, with color, and directories first
+alias cp='cp -i'                                            # Prompt before overwriting files when copying
+alias mv='mv -i'                                            # Prompt before overwriting files when moving
+alias rm='rm -iv'                                           # Prompt before deleting each file, and show what is being removed
+alias mkdir='mkdir -p'                                      # Create parent directories as needed (avoid errors if they don't exist)
+
+# Change directory aliases
+alias home='cd ~'                                           # Go to the home directory
+alias cd..='cd ..'                                          # Correct common typo for going up one directory
+alias ..='cd ..'                                            # Go up one directory
+alias ...='cd ../..'                                        # Go up two directories
+alias ....='cd ../../..'                                    # Go up three directories
+alias .....='cd ../../../..'                                # Go up four directories
+
